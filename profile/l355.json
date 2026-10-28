@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "driver": "escp2-l355-experimental",
+  "name": "Epson L355 EXPERIMENTAL",
+  "model_id": 355,
+  "gutenprint_version": "5.3.5",
+  "source_driver": "escp2-l130",
+  "source_model_id": 80,
+  "overrides": {
+    "borderless": "No",
+    "maximumResolution": "2880 1440",
+    "maximumMediaSize": "612 1008",
+    "maximumImageableArea": "612 1008"
+  },
+  "sheet_margins_pt": [
+    9,
+    9,
+    9,
+    9
+  ],
+  "remove": [
+    "verticalBorderlessSequence"
+  ]
+}

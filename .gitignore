@@ -1,0 +1,9 @@
+/build/
+__pycache__/
+*.py[cod]
+
+/docs/vendor-analysis.md
+/local-research/
+/research/
+/rea/
+*.evidence.json

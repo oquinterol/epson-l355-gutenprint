@@ -1,0 +1,9 @@
+Epson L355 Gutenprint profile
+Project code: GPL-2.0-or-later. See LICENSE.
+
+Gutenprint 5.3.5: https://gimp-print.sourceforge.io/
+The build copies installed Gutenprint XML data into a local build directory,
+preserving upstream copyright and license notices.
+The model definition is derived from Gutenprint model_80.xml, whose notice
+credits Copyright 2008 Robert Krawitz and specifies GPL-2.0-or-later.
+The printer registry retains its upstream copyright and attribution.
