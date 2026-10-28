@@ -99,6 +99,7 @@ Capture and comparison requirements and commands are documented in
 
 ## Technical documentation
 
+- [Development and test roadmap](docs/roadmap.md)
 - [Profile design and evidence](docs/evidence.md)
 - [Validation plan](docs/validation.md)
 - [Initial grayscale comparison](docs/experiments/2026-10-27-letter-black-001.md)
