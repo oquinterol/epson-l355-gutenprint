@@ -1,0 +1,63 @@
+%!PS-Adobe-3.0
+%%Title: Epson L355 - controlled Letter black comparison
+%%Pages: 1
+%%BoundingBox: 0 0 612 792
+%%EndComments
+<< /PageSize [612 792] >> setpagedevice
+0 setgray
+/Helvetica findfont 14 scalefont setfont
+36 742 moveto (EPSON L355 - LETTER BLACK COMPARISON) show
+/Helvetica findfont 9 scalefont setfont
+36 722 moveto (Identical low-coverage design. Mark each sheet: OFFICIAL or PROTOTYPE.) show
+36 707 moveto (Mode: grayscale. Paper: Letter. Record driver and quality settings.) show
+
+% Inset borders: 9 pt = 3.175 mm, 5 mm, 10 mm.
+% Printable-area rounding can clip the outer stroke.
+0.3 setlinewidth
+9 9 594 774 rectstroke
+14.173228 14.173228 583.653544 763.653544 rectstroke
+28.346457 28.346457 555.307086 735.307086 rectstroke
+/Helvetica findfont 8 scalefont setfont
+36 685 moveto (Borders from paper edges: 3.175 mm / 5 mm / 10 mm.) show
+
+/Helvetica findfont 6 scalefont setfont
+36 660 moveto (6 pt: ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789) show
+/Helvetica findfont 8 scalefont setfont
+36 640 moveto (8 pt: ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789) show
+/Helvetica findfont 10 scalefont setfont
+36 618 moveto (10 pt: Black text - evaluate stroke continuity and line quality.) show
+/Helvetica findfont 12 scalefont setfont
+36 594 moveto (12 pt: Black text - evaluate sharpness and uniformity.) show
+
+% A 20 x 20 mm outline square; measure both sides with a ruler.
+0.5 setlinewidth
+36 490 56.692913 56.692913 rectstroke
+/Helvetica findfont 9 scalefont setfont
+108 524 moveto (Square: 20 x 20 mm.) show
+108 508 moveto (Check size, straight edges, and horizontal/vertical registration.) show
+
+% Several thin horizontal strokes for visible banding or gaps.
+0.25 setlinewidth
+36 450 moveto 300 450 lineto stroke
+0.5 setlinewidth
+36 432 moveto 300 432 lineto stroke
+1 setlinewidth
+36 414 moveto 300 414 lineto stroke
+/Helvetica findfont 9 scalefont setfont
+36 390 moveto (Line weights: 0.25 / 0.5 / 1 pt. All should be continuous.) show
+
+% Sparse registration grid, black only.
+0.25 setlinewidth
+0 1 10 { /i exch def 36 i 18 mul add 250 moveto 36 i 18 mul add 340 lineto stroke } for
+0 1 5 { /i exch def 36 250 i 18 mul add moveto 216 250 i 18 mul add lineto stroke } for
+36 232 moveto (Grid spacing: 6.35 mm. Check straightness and missing segments.) show
+
+% A 100 mm scale, with 10 mm ticks.
+0.5 setlinewidth
+36 160 moveto 319.464567 160 lineto stroke
+0 1 10 { /i exch def 36 i 28.346457 mul add 155 moveto 36 i 28.346457 mul add 165 lineto stroke } for
+36 138 moveto (Scale length between end ticks: 100 mm.) show
+36 105 moveto (Inspect: banding, readability, scale, margins, and paper feed.) show
+36 90 moveto (Record printed dimensions and visible defects for each sheet.) show
+showpage
+%%EOF
